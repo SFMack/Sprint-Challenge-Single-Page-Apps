@@ -1,17 +1,16 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Button } from 'reactstrap';
 
 export default function Header() {
 	return (
 		<header className='ui centered'>
 			<h1 className='ui center'>Rick &amp; Morty Fan Page</h1>
-			<Button>
+			<button>
 				<NavLink to='/'>Home</NavLink>
-			</Button>
-			<Button>
+			</button>
+			<button>
 				<NavLink to='/characters'>Characters</NavLink>
-			</Button>
+			</button>
 		</header>
 	);
 }
